@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter Username[[ChromeDriver: chrome on WINDOWS (e7bbdf697712f8566933cc778adeaf4a)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (e7bbdf697712f8566933cc778adeaf4a)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click On Login Button[[ChromeDriver: chrome on WINDOWS (e7bbdf697712f8566933cc778adeaf4a)] -> xpath: //button[@class='radius']]]]>
+    </line>
+    <line>
+      <![CDATA[Verify Display Text[[ChromeDriver: chrome on WINDOWS (e7bbdf697712f8566933cc778adeaf4a)] -> xpath: //div[@id="content"]/div/h2]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username[[ChromeDriver: chrome on WINDOWS (cd6f89845c99d5767c4189405d96cdc0)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (cd6f89845c99d5767c4189405d96cdc0)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click On Login Button[[ChromeDriver: chrome on WINDOWS (cd6f89845c99d5767c4189405d96cdc0)] -> xpath: //button[@class='radius']]]]>
+    </line>
+    <line>
+      <![CDATA[Verify Password Error Message[[ChromeDriver: chrome on WINDOWS (cd6f89845c99d5767c4189405d96cdc0)] -> xpath: //div[@id='flash-messages']//div[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username[[ChromeDriver: chrome on WINDOWS (7abafd3f85512ff35341d14c930edea5)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (7abafd3f85512ff35341d14c930edea5)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click On Login Button[[ChromeDriver: chrome on WINDOWS (7abafd3f85512ff35341d14c930edea5)] -> xpath: //button[@class='radius']]]]>
+    </line>
+    <line>
+      <![CDATA[Verify Username Error Message[[ChromeDriver: chrome on WINDOWS (7abafd3f85512ff35341d14c930edea5)] -> xpath: //div[@id='flash-messages']/div[1]]]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="15016" started-at="2022-12-13T13:44:41 GMT" finished-at="2022-12-13T13:44:56 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="verifyThePasswordErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="verifyThePasswordErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="15016" started-at="2022-12-13T13:44:41 GMT" finished-at="2022-12-13T13:44:56 GMT">
+      <class name="com.herokuapp.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="setUp" is-config="true" duration-ms="3764" started-at="2022-12-13T13:44:41 GMT" finished-at="2022-12-13T13:44:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="inIt" is-config="true" duration-ms="21" started-at="2022-12-13T13:44:45 GMT" finished-at="2022-12-13T13:44:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="userShouldLoginSuccessfullyWithValidCredentials" duration-ms="473" started-at="2022-12-13T13:44:45 GMT" finished-at="2022-12-13T13:44:45 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter Username[[ChromeDriver: chrome on WINDOWS (e7bbdf697712f8566933cc778adeaf4a)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (e7bbdf697712f8566933cc778adeaf4a)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click On Login Button[[ChromeDriver: chrome on WINDOWS (e7bbdf697712f8566933cc778adeaf4a)] -> xpath: //button[@class='radius']]]]>
+            </line>
+            <line>
+              <![CDATA[Verify Display Text[[ChromeDriver: chrome on WINDOWS (e7bbdf697712f8566933cc778adeaf4a)] -> xpath: //div[@id="content"]/div/h2]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="tearDown" is-config="true" duration-ms="605" started-at="2022-12-13T13:44:45 GMT" finished-at="2022-12-13T13:44:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="setUp" is-config="true" duration-ms="3743" started-at="2022-12-13T13:44:46 GMT" finished-at="2022-12-13T13:44:50 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="inIt" is-config="true" duration-ms="2" started-at="2022-12-13T13:44:50 GMT" finished-at="2022-12-13T13:44:50 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="verifyThePasswordErrorMessage" duration-ms="431" started-at="2022-12-13T13:44:50 GMT" finished-at="2022-12-13T13:44:50 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter Username[[ChromeDriver: chrome on WINDOWS (cd6f89845c99d5767c4189405d96cdc0)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (cd6f89845c99d5767c4189405d96cdc0)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click On Login Button[[ChromeDriver: chrome on WINDOWS (cd6f89845c99d5767c4189405d96cdc0)] -> xpath: //button[@class='radius']]]]>
+            </line>
+            <line>
+              <![CDATA[Verify Password Error Message[[ChromeDriver: chrome on WINDOWS (cd6f89845c99d5767c4189405d96cdc0)] -> xpath: //div[@id='flash-messages']//div[1]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThePasswordErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="tearDown" is-config="true" duration-ms="593" started-at="2022-12-13T13:44:50 GMT" finished-at="2022-12-13T13:44:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="setUp" is-config="true" duration-ms="4052" started-at="2022-12-13T13:44:51 GMT" finished-at="2022-12-13T13:44:55 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="inIt" is-config="true" duration-ms="2" started-at="2022-12-13T13:44:55 GMT" finished-at="2022-12-13T13:44:55 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="verifyTheUsernameErrorMessage" duration-ms="431" started-at="2022-12-13T13:44:55 GMT" finished-at="2022-12-13T13:44:55 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter Username[[ChromeDriver: chrome on WINDOWS (7abafd3f85512ff35341d14c930edea5)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password[[ChromeDriver: chrome on WINDOWS (7abafd3f85512ff35341d14c930edea5)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click On Login Button[[ChromeDriver: chrome on WINDOWS (7abafd3f85512ff35341d14c930edea5)] -> xpath: //button[@class='radius']]]]>
+            </line>
+            <line>
+              <![CDATA[Verify Username Error Message[[ChromeDriver: chrome on WINDOWS (7abafd3f85512ff35341d14c930edea5)] -> xpath: //div[@id='flash-messages']/div[1]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@2781e022]" name="tearDown" is-config="true" duration-ms="608" started-at="2022-12-13T13:44:55 GMT" finished-at="2022-12-13T13:44:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.testsuite.LoginPageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
